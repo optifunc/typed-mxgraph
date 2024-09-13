@@ -1,7 +1,7 @@
 {
-  "name": "@typed-mxgraph/typed-mxgraph",
+  "name": "@optifunc/typed-mxgraph",
   "version": "1.0.8",
-  "author": "鸿则 <hungtcs@163.com>",
+  "author": "鸿则 <hungtcs@163.com>, Optifunc",
   "license": "MIT",
   "scripts": {
     "pretest": "tsc --noEmit",
@@ -27,12 +27,12 @@
   "main": "index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/typed-mxgraph/typed-mxgraph.git"
+    "url": "git+https://github.com/optifunc/typed-mxgraph"
   },
   "bugs": {
-    "url": "https://github.com/typed-mxgraph/typed-mxgraph/issues"
+    "url": "https://github.com/optifunc/typed-mxgraph/issues"
   },
-  "homepage": "https://github.com/typed-mxgraph/typed-mxgraph#readme",
+  "homepage": "https://github.com/optifunc/typed-mxgraph#readme",
   "keywords": [
     "mxgraph",
     "types"
