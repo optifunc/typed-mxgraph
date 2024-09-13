@@ -80,31 +80,31 @@ declare module 'mxgraph' {
      * Padding added to resized parents.
      * @default 10
      */
-    groupPadding: boolean;
+    groupPadding: number;
 
     /**
      * Top padding added to resized parents.
      * @default 0
      */
-    groupPaddingTop: boolean;
+    groupPaddingTop: number;
 
     /**
      * Right padding added to resized parents.
      * @default 0
      */
-    groupPaddingRight: boolean;
+    groupPaddingRight: number;
 
     /**
      * Bottom padding added to resized parents.
      * @default 0
      */
-    groupPaddingBottom: boolean;
+    groupPaddingBottom: number;
 
     /**
      * Left padding added to resized parents.
      * @default 0
      */
-    groupPaddingLeft: boolean;
+    groupPaddingLeft: number;
 
     /**
      * A set of the parents that need updating based on children
@@ -148,23 +148,23 @@ declare module 'mxgraph' {
     /**
      * The preferred horizontal distance between edges exiting a vertex.
      */
-    prefHozEdgeSep: boolean;
+    prefHozEdgeSep: number;
 
     /**
      * The preferred vertical offset between edges exiting a vertex.
      */
-    prefVertEdgeOff: boolean;
+    prefVertEdgeOff: number;
 
     /**
      * The minimum distance for an edge jetty from a vertex.
      */
-    minEdgeJetty: boolean;
+    minEdgeJetty: number;
 
     /**
      * The size of the vertical buffer in the center of inter-rank channels
      * where edge control points should not be placed.
      */
-    channelBuffer: boolean;
+    channelBuffer: number;
 
     /**
      * Whether or not to apply the internal tree edge routing.
