@@ -205,10 +205,10 @@ declare module 'mxgraph' {
     /**
      * Constructs a new weighted cell sorted for the given cell and weight.
      * @constructor
-     * @param {mxCell} cell
+     * @param {any} cell
      * @param {number} weightedValue
      */
-    constructor(cell: mxCell, weightedValue: number);
+    constructor(cell: any, weightedValue: number);
 
     /**
      * The weighted value of the cell stored.
@@ -233,7 +233,7 @@ declare module 'mxgraph' {
     /**
      * The cell whose median value is being calculated.
      */
-    cell: mxCell;
+    cell: any;
 
     /**
      * Compares two WeightedCellSorters.
