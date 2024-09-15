@@ -15,6 +15,7 @@ declare module 'mxgraph' {
       [key: string]: any;
     };
     child?: _mxCompactTreeLayoutNode;
+    next?: _mxCompactTreeLayoutNode;
   }
 
   export interface _mxCompactTreeLayoutLine {
