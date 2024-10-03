@@ -105,7 +105,7 @@ declare module 'mxgraph' {
      * @param target Target for installing the listener in Google Chrome. See
      * https://www.chromestatus.com/features/6662647093133312.
      */
-    static addMouseWheelListener(funct: (event: Event, up: boolean) => void, target?: Node | Window): void;
+    static addMouseWheelListener(funct: (event: MouseEvent, up: boolean) => void, target?: Node | Window): void;
 
     /**
      * Disables the context menu for the given element.
