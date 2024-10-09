@@ -30,7 +30,7 @@ declare module 'mxgraph' {
      *
      * Defines the default shape for labels. Default is <mxText>.
      */
-    defaultTextShape: () => mxText;
+    defaultTextShape: (...args: any[]) => mxText;
 
     /**
      * Variable: legacyControlPosition
