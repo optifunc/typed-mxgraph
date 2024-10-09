@@ -138,7 +138,7 @@ declare module 'mxgraph' {
      * This is needed to make sure no clipping is applied to borders.
      * @default 4 for IE 8 standards mode and 3 for all others.
      */
-    textWidthPadding: 4 | 3;
+    textWidthPadding: number;
 
     /**
      * Contains the last rendered text value. Used for caching.
